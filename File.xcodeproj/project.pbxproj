@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F38B8041DBF882600D36455 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38B8031DBF882600D36455 /* FileManager.swift */; };
+		8F38B8061DBF885A00D36455 /* FileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38B8051DBF885A00D36455 /* FileManagerTests.swift */; };
+		8F38B8081DBF886800D36455 /* mosaic_sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F38B8071DBF886800D36455 /* mosaic_sun.jpg */; };
 		8F77128D1C899AE400B6B218 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F77128C1C899AE400B6B218 /* File.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F7712941C899AE500B6B218 /* File.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7712891C899AE400B6B218 /* File.framework */; };
-		8F7712991C899AE500B6B218 /* FileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7712981C899AE500B6B218 /* FileTests.swift */; };
-		8F7712A41C899AF100B6B218 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7712A31C899AF100B6B218 /* NSFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +25,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F38B8031DBF882600D36455 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		8F38B8051DBF885A00D36455 /* FileManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerTests.swift; sourceTree = "<group>"; };
+		8F38B8071DBF886800D36455 /* mosaic_sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mosaic_sun.jpg; sourceTree = "<group>"; };
 		8F7712891C899AE400B6B218 /* File.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = File.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F77128C1C899AE400B6B218 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
 		8F77128E1C899AE400B6B218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F7712931C899AE500B6B218 /* FileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F7712981C899AE500B6B218 /* FileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTests.swift; sourceTree = "<group>"; };
 		8F77129A1C899AE500B6B218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F7712A31C899AF100B6B218 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8F7712A51C899B1000B6B218 /* Supporting Files */,
-				8F7712A31C899AF100B6B218 /* NSFileManager.swift */,
+				8F38B8031DBF882600D36455 /* FileManager.swift */,
 			);
 			path = File;
 			sourceTree = "<group>";
@@ -82,7 +84,8 @@
 		8F7712971C899AE500B6B218 /* FileTests */ = {
 			isa = PBXGroup;
 			children = (
-				8F7712981C899AE500B6B218 /* FileTests.swift */,
+				8F38B8051DBF885A00D36455 /* FileManagerTests.swift */,
+				8F38B8071DBF886800D36455 /* mosaic_sun.jpg */,
 				8F77129A1C899AE500B6B218 /* Info.plist */,
 			);
 			path = FileTests;
@@ -154,14 +157,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Christian Otkjær";
 				TargetAttributes = {
 					8F7712881C899AE400B6B218 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					8F7712921C899AE500B6B218 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -195,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F38B8081DBF886800D36455 /* mosaic_sun.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7712A41C899AF100B6B218 /* NSFileManager.swift in Sources */,
+				8F38B8041DBF882600D36455 /* FileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7712991C899AE500B6B218 /* FileTests.swift in Sources */,
+				8F38B8061DBF885A00D36455 /* FileManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,8 +247,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -289,8 +297,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -310,6 +320,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -321,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,6 +344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -339,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -349,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.File";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -359,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.FileTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -369,6 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.FileTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -391,6 +408,7 @@
 				8F77129F1C899AE500B6B218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F7712A01C899AE500B6B218 /* Build configuration list for PBXNativeTarget "FileTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +417,7 @@
 				8F7712A21C899AE500B6B218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
