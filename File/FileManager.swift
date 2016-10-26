@@ -8,16 +8,6 @@
 
 import Foundation
 
-//
-//  FileManager.swift
-//  SwiftPlus
-//
-//  Created by Christian Otkjær on 25/10/16.
-//  Copyright © 2016 Silverback IT. All rights reserved.
-//
-
-import Foundation
-
 public extension FileManager
 {
     @discardableResult
